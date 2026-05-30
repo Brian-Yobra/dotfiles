@@ -12,3 +12,8 @@ source ~/.local/share/omarchy/default/bash/rc
 export PATH=$HOME/.local/bin:$PATH
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
+alias waydroid='/usr/bin/python3 /usr/bin/waydroid'
+
+# Added by Antigravity CLI installer
+export PATH="/home/xeno/.local/bin:$PATH"
+alias tmdev='tmux new-session \; split-window -h \; split-window -v \; select-pane -t 0'
